@@ -1,0 +1,21 @@
+{
+  "name": "first-web-app",
+  "version": "1.0.0",
+  "description": "Weather app in Node.js, Express.js, React.js using Openweathermap API Inspired from Andrew Mead's course: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd web-client && npm install && cd ../web-server && npm install",
+    "build": "cd web-client && npm run build",
+    "start": "cd web-server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumairijazhashmi/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumairijazhashmi/weather-app/issues"
+  },
+  "homepage": "https://github.com/sumairijazhashmi/weather-app#readme"
+}
